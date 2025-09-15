@@ -1,0 +1,17 @@
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\obj\Debug\net8.0\HRMS.Infrastructure.csproj.AssemblyReference.cache
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\obj\Debug\net8.0\HRMS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\obj\Debug\net8.0\HRMS.Infrastructure.AssemblyInfoInputs.cache
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\obj\Debug\net8.0\HRMS.Infrastructure.AssemblyInfo.cs
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\obj\Debug\net8.0\HRMS.Infrastructure.csproj.CoreCompileInputs.cache
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\bin\Debug\net8.0\HRMS.Infrastructure.deps.json
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\bin\Debug\net8.0\HRMS.Infrastructure.runtimeconfig.json
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\bin\Debug\net8.0\HRMS.Infrastructure.dll
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\bin\Debug\net8.0\HRMS.Infrastructure.pdb
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\bin\Debug\net8.0\HRMS.Core.dll
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\bin\Debug\net8.0\HRMS.Core.pdb
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\obj\Debug\net8.0\HRMS.Inf.BA81F186.Up2Date
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\obj\Debug\net8.0\HRMS.Infrastructure.dll
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\obj\Debug\net8.0\refint\HRMS.Infrastructure.dll
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\obj\Debug\net8.0\HRMS.Infrastructure.pdb
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\obj\Debug\net8.0\HRMS.Infrastructure.genruntimeconfig.cache
+E:\PersonalProject\HRMS\src\HRMS.Infrastructure\obj\Debug\net8.0\ref\HRMS.Infrastructure.dll

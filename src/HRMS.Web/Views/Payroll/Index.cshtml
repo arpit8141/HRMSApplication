@@ -1,0 +1,35 @@
+﻿@model IEnumerable<HRMS.Core.Entities.Payroll>
+
+<h2>Payroll Records</h2>
+<a asp-action="Create" class="btn btn-primary mb-3">Generate Payroll</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Employee</th>
+            <th>Month</th>
+            <th>Basic</th>
+            <th>Allowances</th>
+            <th>Deductions</th>
+            <th>Net Salary</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var payroll in Model)
+        {
+            <tr>
+                <td>@payroll.Employee?.FirstName @payroll.Employee?.LastName</td>
+                <td>@payroll.Month.ToString("MMMM yyyy")</td>
+                <td>@payroll.BasicSalary</td>
+                <td>@payroll.Allowances</td>
+                <td>@payroll.Deductions</td>
+                <td>@payroll.NetSalary</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@payroll.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@payroll.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

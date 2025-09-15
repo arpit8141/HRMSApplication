@@ -1,0 +1,30 @@
+﻿@model IEnumerable<HRMS.Core.Entities.Department>
+
+@{
+    ViewData["Title"] = "Departments";
+}
+
+<h2>Departments</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-2">Add Department</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Department Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dept in Model)
+        {
+            <tr>
+                <td>@dept.Name</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@dept.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@dept.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

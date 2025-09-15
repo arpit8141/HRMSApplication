@@ -1,0 +1,26 @@
+﻿@model HRMS.Core.Entities.Attendance
+@using HRMS.Core.Enums
+
+<h2>Add Attendance</h2>
+
+<form asp-action="Create">
+    <div class="mb-3">
+        <label>Employee</label>
+        <select asp-for="EmployeeId" class="form-control"
+                asp-items="@(new SelectList(ViewBag.Employees, "Id", "FirstName"))"></select>
+    </div>
+    <div class="mb-3">
+        <label>Check In</label>
+        <input asp-for="CheckIn" type="datetime-local" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Check Out</label>
+        <input asp-for="CheckOut" type="datetime-local" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Status</label>
+        <select asp-for="Status" class="form-control"
+                asp-items="Html.GetEnumSelectList<AttendanceStatus>()"></select>
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+</form>

@@ -1,0 +1,17 @@
+E:\PersonalProject\HRMS\src\HRMS.Services\obj\Debug\net8.0\HRMS.Services.csproj.AssemblyReference.cache
+E:\PersonalProject\HRMS\src\HRMS.Services\obj\Debug\net8.0\HRMS.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\PersonalProject\HRMS\src\HRMS.Services\obj\Debug\net8.0\HRMS.Services.AssemblyInfoInputs.cache
+E:\PersonalProject\HRMS\src\HRMS.Services\obj\Debug\net8.0\HRMS.Services.AssemblyInfo.cs
+E:\PersonalProject\HRMS\src\HRMS.Services\obj\Debug\net8.0\HRMS.Services.csproj.CoreCompileInputs.cache
+E:\PersonalProject\HRMS\src\HRMS.Services\bin\Debug\net8.0\HRMS.Services.deps.json
+E:\PersonalProject\HRMS\src\HRMS.Services\bin\Debug\net8.0\HRMS.Services.dll
+E:\PersonalProject\HRMS\src\HRMS.Services\bin\Debug\net8.0\HRMS.Services.pdb
+E:\PersonalProject\HRMS\src\HRMS.Services\bin\Debug\net8.0\HRMS.Core.dll
+E:\PersonalProject\HRMS\src\HRMS.Services\bin\Debug\net8.0\HRMS.Infrastructure.dll
+E:\PersonalProject\HRMS\src\HRMS.Services\bin\Debug\net8.0\HRMS.Core.pdb
+E:\PersonalProject\HRMS\src\HRMS.Services\bin\Debug\net8.0\HRMS.Infrastructure.pdb
+E:\PersonalProject\HRMS\src\HRMS.Services\obj\Debug\net8.0\HRMS.Ser.161E031D.Up2Date
+E:\PersonalProject\HRMS\src\HRMS.Services\obj\Debug\net8.0\HRMS.Services.dll
+E:\PersonalProject\HRMS\src\HRMS.Services\obj\Debug\net8.0\refint\HRMS.Services.dll
+E:\PersonalProject\HRMS\src\HRMS.Services\obj\Debug\net8.0\HRMS.Services.pdb
+E:\PersonalProject\HRMS\src\HRMS.Services\obj\Debug\net8.0\ref\HRMS.Services.dll

@@ -1,0 +1,28 @@
+﻿@model HRMS.Core.Entities.Payroll
+
+<h2>Generate Payroll</h2>
+
+<form asp-action="Create">
+    <div class="mb-3">
+        <label>Employee</label>
+        <select asp-for="EmployeeId" class="form-control"
+                asp-items="@(new SelectList(ViewBag.Employees, "Id", "FirstName"))"></select>
+    </div>
+    <div class="mb-3">
+        <label>Month</label>
+        <input asp-for="Month" type="month" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Basic Salary</label>
+        <input asp-for="BasicSalary" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Allowances</label>
+        <input asp-for="Allowances" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Deductions</label>
+        <input asp-for="Deductions" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+</form>

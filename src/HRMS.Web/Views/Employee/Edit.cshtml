@@ -1,0 +1,41 @@
+﻿@model HRMS.Core.Entities.Employee
+
+@{
+    ViewData["Title"] = "Edit Employee";
+}
+
+<h2>Edit Employee</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Department</label>
+        <select asp-for="DepartmentId" class="form-control"
+                asp-items="@(new SelectList(ViewBag.Departments, "Id", "Name", Model.DepartmentId))"></select>
+    </div>
+    <div class="form-group">
+        <label>Role</label>
+        <select asp-for="RoleId" class="form-control"
+                asp-items="@(new SelectList(ViewBag.Roles, "Id", "RoleName", Model.RoleId))"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="DateOfJoining"></label>
+        <input asp-for="DateOfJoining" type="date" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

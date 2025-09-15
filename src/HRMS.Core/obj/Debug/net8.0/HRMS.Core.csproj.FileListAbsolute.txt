@@ -1,0 +1,12 @@
+E:\PersonalProject\HRMS\src\HRMS.Core\obj\Debug\net8.0\HRMS.Core.csproj.AssemblyReference.cache
+E:\PersonalProject\HRMS\src\HRMS.Core\obj\Debug\net8.0\HRMS.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\PersonalProject\HRMS\src\HRMS.Core\obj\Debug\net8.0\HRMS.Core.AssemblyInfoInputs.cache
+E:\PersonalProject\HRMS\src\HRMS.Core\obj\Debug\net8.0\HRMS.Core.AssemblyInfo.cs
+E:\PersonalProject\HRMS\src\HRMS.Core\obj\Debug\net8.0\HRMS.Core.csproj.CoreCompileInputs.cache
+E:\PersonalProject\HRMS\src\HRMS.Core\bin\Debug\net8.0\HRMS.Core.deps.json
+E:\PersonalProject\HRMS\src\HRMS.Core\bin\Debug\net8.0\HRMS.Core.dll
+E:\PersonalProject\HRMS\src\HRMS.Core\bin\Debug\net8.0\HRMS.Core.pdb
+E:\PersonalProject\HRMS\src\HRMS.Core\obj\Debug\net8.0\HRMS.Core.dll
+E:\PersonalProject\HRMS\src\HRMS.Core\obj\Debug\net8.0\refint\HRMS.Core.dll
+E:\PersonalProject\HRMS\src\HRMS.Core\obj\Debug\net8.0\HRMS.Core.pdb
+E:\PersonalProject\HRMS\src\HRMS.Core\obj\Debug\net8.0\ref\HRMS.Core.dll
